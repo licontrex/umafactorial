@@ -1,3 +1,4 @@
+una vez configurado el proxy y hecho el : git clone http://www.github.com/licontre/umafactorial.git
 hago:
  git status 
  git add factorial.java
