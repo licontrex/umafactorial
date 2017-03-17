@@ -1,0 +1,75 @@
+una vez configurado el proxy y hecho el : git clone http://www.github.com/licontre/umafactorial.git
+hago:
+ git status 
+ git add factorial.java
+ git commit -m "implementacion inicial"
+
+modifico el archivo:
+
+git add factorial.java
+git commit -m "refactorizacion"
+git push origin master
+
+creo una nueva rama recursivo.:
+
+git checkout .b recursivo
+
+modifico el metodo:
+
+git commit -m "recursivo"
+
+cambio de rama:
+
+git checkout master
+
+modifico el main:
+
+git add .
+git commit -m "numeros negativos"
+
+cambio de rama:
+
+git checkout recursivo
+
+modifico:
+
+git add .
+git commit -m "optimizacion"
+
+voy a unir las ramas:
+
+git checkout master
+git merge recursivo
+
+cramos una rama nueva:
+
+git checkout -b refacIO
+
+cambiamos:
+
+git add .
+git commit -m "refactorizacion de metodo de entrada"
+
+cambio, guardando los cambios realizados:
+
+git stash
+git checkout master
+
+modifico:
+
+git add .
+git checkout -m "modifico de long  a bitInteger"
+
+cambio de rama y asco del montos lo que cambie previamente:
+
+git checkout refacIO
+git stash pop
+git add .
+git commit -m "refactorizacion de metodo de salida"
+git checkout master
+git merge refactIO
+
+da problemas y lo modifico:
+
+git add .
+git commit -m "mezcla de la rama refaacIO"
