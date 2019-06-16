@@ -35,4 +35,5 @@ public class factorial {
 				long num = getNumber();
 
 				showFac(num);
+				
 			}
